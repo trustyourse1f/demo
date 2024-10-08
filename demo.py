@@ -21,7 +21,7 @@ logging.langsmith("FAQ DEMO")
 if not os.path.exists(".cache"):
     os.mkdir(".cache")
 
-st.title("FAQ 기반 챗봇💬")
+st.title("FAQ 기반 주거복지상담 챗봇💬")
 
 # 처음 한번만 실행하기 위한 코드
 if "messages" not in st.session_state:
